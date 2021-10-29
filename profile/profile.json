@@ -1,0 +1,128 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Concentration in Software Engineering"
+      ],
+      "degree": "Bachelor of Science",
+      "department": "Computer Science",
+      "duration": "2015-2020",
+      "school_name": "Ryerson University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MichaelChen",
+  "highlighted_projects": [
+    {
+      "description": "Created a series of web apps as prescribed by theodinproject.com. Practiced Rails concepts such as MVC design pattern, Active Record, associations. Deployed RESTful apps on Heroku with support for REST clients.",
+      "git_url": "https://github.com/mwcchen",
+      "name": "The Odin Project Rails Course Projects"
+    },
+    {
+      "description": "Created backend to a system for handling flashcard reviews. Designed using SuperMemo-2 algorithm for memory estimates. Implemented efficient card statistics management supporting multiple users.",
+      "git_url": null,
+      "name": "SRS Flashcard App Backend"
+    },
+    {
+      "description": "Wrote a short paper on https://github.com/mxgmn/WaveFunctionCollapse. Implemented and added functionality for solving only in a local area. Explored how to avoid over/under-fitting properties based on given parameters. Analyzed runtime and optimized algorithm by generating only what is needed.",
+      "git_url": null,
+      "name": "WaveFunctionCollapse"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed an app for automated collection of system specifications and resource usage of a node in a Linux server cluster. Implemented info collection scripts in Bash, designed PostgreSQl database, and wrote SQL script for compiling and fetching useful aggregate information. Tested app manually on remote CentOS nodes; input was fed by hand and tested against valid and invalid input, with all tests passing. Deployed the app with Docker to contain the PostgreSQL database, and crontab set up to periodically execute Bash scripts.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Resource Monitoring App"
+    },
+    {
+      "description": [
+        "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Spring RESTful Microservices App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Michael Chen",
+  "others": [
+    {
+      "bullets": [
+        "EMC Academic Associate, Data Science and Big Data Analytics (2019)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Volunteer, Japanese Canadian Cultural Centre",
+        "Natural Languages: English, Chinese, Japanese",
+        "Literary translation",
+        "Language exchange",
+        "Hiking",
+        "Camping",
+        "Biking"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Collaborated with peers to solve real-world problems with modern technologies. Projects so far include provisioning a CentOS 7 VM using Google Cloud, and an automated system information aggregator, deployed using PostgreSQL on Docker.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Ruby on Rails",
+      "Node.js",
+      "Angular",
+      "HTML/CSS",
+      "UI/UX design",
+      "Software Testing"
+    ],
+    "familiar": [
+      "C/C++",
+      "Machine Learning",
+      "Computer Vision",
+      "Blockchain",
+      "Natural Language Processing"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "Algorithms/Data structures",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I recently graduated from a 4-year program at Ryerson University and received a Bachelor's degree in Computer Science. In school, I undertook a concentration in Software Engineering. Topics in the field I am driven by are algorithm and data structure design and optimization, and writing clean, readable code. I believe that my expertise and passion will lead me to success in this industry.\nDuring my years in school, some of the most important lessons I learned were through interactions and collaboration with classmates. It was during group projects that I learned the importance of high-level communication. Especially in a team environment, I hold transparency, being able to take fault, and being willing to ask for and receive help as of the highest value.\nAt this point in my career, I'm open to exploring new opportunities. I have confidence in my strength in analyzing problems and designing algorithms to solve them. It would be my dream come true to contribute to a distinguished codebase as a major milestone for one of the greatest pursuits of my life: a career in cutting-edge tech."
+}

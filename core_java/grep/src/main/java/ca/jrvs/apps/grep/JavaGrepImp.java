@@ -51,7 +51,7 @@ public class JavaGrepImp implements JavaGrep {
         }
 
         //Use default logger config
-        BasicConfigurator.configure();
+//        BasicConfigurator.configure();
 
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
@@ -97,7 +97,7 @@ public class JavaGrepImp implements JavaGrep {
         List<String> lines = new ArrayList<>();
         try {
             lines = Files.readAllLines(inputFile.toPath());
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             logger.error("Error: Unable to read file", ex);
         }
         return lines;

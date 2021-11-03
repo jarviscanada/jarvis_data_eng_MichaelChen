@@ -18,7 +18,7 @@ case $cmd in
   #If container exists
   if [ $container_status -eq 0 ]; then
 		echo 'Container already exists'
-		exit 1
+		exit 0
 	fi
 
   #If invalid number of CLI arguments

@@ -58,7 +58,6 @@ public class OrderLine {
         this.productPrice = productPrice;
     }
 
-
     @Override
     public String toString() {
         return "OrderLine{" +

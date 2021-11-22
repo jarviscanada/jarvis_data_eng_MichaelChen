@@ -22,7 +22,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MichaelChe
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelChen/tree/master/core_java)]:
       
   - Grep App: Java 8 implementation of a simplified version of grep, using Lambda and Stream API for processing large files, written in IntelliJ.
-  - JDBC App: In progress
+  - JDBC App: Java app for interacting with PSQL database through Java's JDBC API with PSQL driver, feature DAO implementation for data access.
 
 
 ## Highlighted Projects

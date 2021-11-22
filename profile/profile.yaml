@@ -1,0 +1,130 @@
+# Preferred name (Characters only)
+name: "Michael Chen"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MichaelChen
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: "I am a recent graduate from Ryerson University and received a Bachelor's degree in Computer Science. In school, I undertook a concentration in Software Engineering. I am passionate about algorithm optimization, data structure design, and writing clean, readable code. I believe that my expertise and passion will lead me to success in this industry.
+
+During my years in school, some of the most important lessons I learned were through interactions and collaboration with classmates. It was during group projects that I learned the importance of high-level communication. I hold transparency, accountability, and willingness to ask for and receive help as of the highest value.
+
+At this point in my career, I'm open to exploring new opportunities. I have confidence in my strength in analyzing problems and designing algorithms to solve them. It would be my dream come true to contribute to a distinguished codebase as a significant milestone for one of the greatest pursuits of my life: a career in cutting-edge tech."
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Python
+    - Algorithms/Data structures
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Ruby on Rails
+    - Node.js
+    - Angular
+    - HTML/CSS
+    - UI/UX design
+    - Software Testing
+  # At least 5 skills
+  familiar:
+    - C/C++
+    - Machine Learning
+    - Computer Vision
+    - Blockchain
+    - Natural Language Processing
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url: "/linux_sql"
+    # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+    # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
+    description: Developed an app for automated collection of system specifications and node resource usage in a Linux server cluster. Implemented info collection scripts in Bash, designed PostgreSQL database, and wrote SQL queries for compiling and fetching useful aggregate information. Tested app manually on remote CentOS nodes; input was fed by hand and tried against valid and invalid input with all tests passing. Deployed the app with Docker to contain the PostgreSQL database and crontab set up to execute Bash scripts.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      # Keywords: Java 8, Lambda, Stream API, IntelliJ
+      - "Grep App: Java 8 implementation of a simplified version of grep, using Lambda and Stream API for processing large files, written in IntelliJ."
+      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
+      - "JDBC App: In progress"
+      #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
+      # - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  # Please remove not started projects below so that they don't show up in your profile for now.
+  # You will need to add a project back to your profile upon completion
+  # - name: "Spring RESTful Microservices App"
+  #   git_url: "/springboot"
+    #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
+  #   description: ""
+  # - name: "Python Data Analytics"
+  #   git_url: "/python_data_analytics"
+  #   description: ""
+  # - name: "Hadoop"
+  #   git_url: "/hadoop"
+  #   description: ""
+  # - name: "Spark"
+  #   git_url: "/spark"
+  #   description: ""
+  # - name: "Cloud/DevOps"
+  #   git_url: "/cloud_devops"
+  #   description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+highlighted_projects:
+  #project name
+  - name: "The Odin Project Rails Course Projects"
+    #URL is optional
+    git_url: "https://github.com/mwcchen"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created a series of web apps as prescribed by theodinproject.com. Practiced Rails concepts such as MVC design pattern, Active Record, associations. Deployed RESTful apps on Heroku with support for REST clients.
+  - name: "SRS Flashcard App Backend"
+    git_url:
+    description: Created a Python backend for handling flashcard reviews, like Anki. The system was designed using the SuperMemo-2 algorithm for regulating the frequency and scheduling of flashcards. Implemented efficient card statistics management using MYSQL which supports multiple users. A JSON REST API is provided to handle remote database queries and the system automatically handles review conflicts by considering the earliest review.
+  - name: "WaveFunctionCollapse"
+    git_url:
+    description: Wrote a paper on Maxim Gumin's WaveFunctionCollapse algorithm. The program takes a bitmap input and synthesizes bitmaps that retain local features of the input while generating new general features. Implemented functionality for generating only in a local area of an image. Explored how to avoid over/under-fitting properties based on given parameters. Analyzed runtime and optimized algorithm by generating only what is needed at the time.
+
+#List of professional experience
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Collaborated with peers to solve real-world problems with modern technologies. Studied Data Engineering fundamentals by creating data aggregation apps and command line apps, deployed with Docker. Development followed Agile methodologies under a Scrum framework, with ceremonies conducted by fellow developers."
+
+#List of edcuation
+education:
+  - school_name: "Ryerson University"
+    duration: "2015-2020"
+    degree: "Bachelor of Science"
+    department: "Computer Science"
+    # optional
+    awards_achievements:
+      - "Concentration in Software Engineering"
+
+#Optional section
+others:
+  #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "EMC Academic Associate, Data Science and Big Data Analytics (2019)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Volunteer, Japanese Canadian Cultural Centre"
+      - "Natural Languages: English, Chinese, Japanese"
+      - "Literary translation"
+      - "Language exchange"
+      - "Hiking"
+      - "Camping"
+      - "Biking"

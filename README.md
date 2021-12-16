@@ -21,8 +21,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MichaelChe
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelChen/tree/master/core_java)]:
       
-  - Grep App: Java 8 implementation of a simplified version of grep, using Lambda and Stream API for processing large files, written in IntelliJ.
-  - JDBC App: In progress
+  - Grep App: Java 8 implementation of a simplified version of grep. It recursively checks all files in a given directory and compiles all lines matching a given regex pattern into a file. It was made using Lambda and Stream API for processing large files, SLF4J for logging, written in IntelliJ. Dependencies were packaged into an uber jar with Maven Shade Plugin, and deployed on DockerHub.
+  - JDBC App: This project is a Java app for interacting with PSQL database through Java's JDBC API with PSQL driver. The project is demonstrated on a typical storefront database and features a DAO implementation for data access. The app has support for basic CRUD operations as transactions. I wrote the code in IntelliJ IDEA, with the project managed with Maven.
 
 
 ## Highlighted Projects

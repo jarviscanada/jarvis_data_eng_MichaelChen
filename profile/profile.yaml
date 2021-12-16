@@ -50,9 +50,9 @@ jarvis_projects:
     git_url: "/core_java"
     description:
       # Keywords: Java 8, Lambda, Stream API, IntelliJ
-      - "Grep App: Java 8 implementation of a simplified version of grep, using Lambda and Stream API for processing large files, written in IntelliJ."
+      - "Grep App: Java 8 implementation of a simplified version of grep. It recursively checks all files in a given directory and compiles all lines matching a given regex pattern into a file. It was made using Lambda and Stream API for processing large files, SLF4J for logging, written in IntelliJ. Dependencies were packaged into an uber jar with Maven Shade Plugin, and deployed on DockerHub."
       # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
-      - "JDBC App: It is a Java app for interacting with PSQL database through Java's JDBC API with PSQL driver, featuring DAO implementation for data access."
+      - "JDBC App: This project is a Java app for interacting with PSQL database through Java's JDBC API with PSQL driver. The project is demonstrated on a typical storefront database and features a DAO implementation for data access. The app has support for basic CRUD operations as transactions. I wrote the code in IntelliJ IDEA, with the project managed with Maven."
       #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
       # - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
   # Please remove not started projects below so that they don't show up in your profile for now.
